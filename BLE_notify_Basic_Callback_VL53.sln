@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BLE_notify_Basic_Callback_VL53", "BLE_notify_Basic_Callback_VL53.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AS_Polar_Client", "..\AS_Polar_Client\AS_Polar_Client.vcxproj", "{BAD474CC-B790-4BDA-A0A5-70CACF5AF9E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sketch", "..\BLE_Server_AS_v1.0\BLE_Server_AS_v1.0.vcxproj", "{D33C5370-80D5-470C-A0E3-BB7FEFDDA952}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ByteOperators", "..\ByteOperators\ByteOperators.vcxproj", "{B6150D0D-3BFD-41A6-8084-A40195CA1E11}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myTwoBytes", "..\myTwoBytes\myTwoBytes.vcxproj", "{5B662171-F773-4DD0-AF61-05882DE98C7C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP32_BASE_VL53", "..\ESP32_BASE_VL53\ESP32_BASE_VL53.vcxproj", "{92413A39-E4EB-49EB-A73C-91263B60BBBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{BAD474CC-B790-4BDA-A0A5-70CACF5AF9E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAD474CC-B790-4BDA-A0A5-70CACF5AF9E1}.Debug|x86.Build.0 = Debug|Win32
+		{BAD474CC-B790-4BDA-A0A5-70CACF5AF9E1}.Release|x86.ActiveCfg = Release|Win32
+		{BAD474CC-B790-4BDA-A0A5-70CACF5AF9E1}.Release|x86.Build.0 = Release|Win32
+		{D33C5370-80D5-470C-A0E3-BB7FEFDDA952}.Debug|x86.ActiveCfg = Debug|Win32
+		{D33C5370-80D5-470C-A0E3-BB7FEFDDA952}.Debug|x86.Build.0 = Debug|Win32
+		{D33C5370-80D5-470C-A0E3-BB7FEFDDA952}.Release|x86.ActiveCfg = Release|Win32
+		{D33C5370-80D5-470C-A0E3-BB7FEFDDA952}.Release|x86.Build.0 = Release|Win32
+		{B6150D0D-3BFD-41A6-8084-A40195CA1E11}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6150D0D-3BFD-41A6-8084-A40195CA1E11}.Debug|x86.Build.0 = Debug|Win32
+		{B6150D0D-3BFD-41A6-8084-A40195CA1E11}.Release|x86.ActiveCfg = Release|Win32
+		{B6150D0D-3BFD-41A6-8084-A40195CA1E11}.Release|x86.Build.0 = Release|Win32
+		{5B662171-F773-4DD0-AF61-05882DE98C7C}.Debug|x86.ActiveCfg = Debug|Win32
+		{5B662171-F773-4DD0-AF61-05882DE98C7C}.Debug|x86.Build.0 = Debug|Win32
+		{5B662171-F773-4DD0-AF61-05882DE98C7C}.Release|x86.ActiveCfg = Release|Win32
+		{5B662171-F773-4DD0-AF61-05882DE98C7C}.Release|x86.Build.0 = Release|Win32
+		{92413A39-E4EB-49EB-A73C-91263B60BBBC}.Debug|x86.ActiveCfg = Debug|Win32
+		{92413A39-E4EB-49EB-A73C-91263B60BBBC}.Debug|x86.Build.0 = Debug|Win32
+		{92413A39-E4EB-49EB-A73C-91263B60BBBC}.Release|x86.ActiveCfg = Release|Win32
+		{92413A39-E4EB-49EB-A73C-91263B60BBBC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {302231C3-2637-4E2A-838E-BBA0CFC1FFCF}
+	EndGlobalSection
+EndGlobal
